@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="asset/simon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Simon Says Game</h1>
+        <h2>Press "start" to start Game</h2>
+    </div>
+
+    <div class="name">
+        <input type="text" placeholder="Enter your Name">
+        <button id="nameSubmit">OK</button>
+    </div>
+    <div class="btn-container">
+        <div class="line-one">
+            <div type="button" class="btn red" id="red"></div>
+            <div type="button" class="btn yellow" id="yellow"></div>
+        </div>
+
+        <div class="line-two">
+            <div type="button" class="btn green" id="green"></div>
+            <div type="button" class="btn purple" id="purple"></div>
+        </div>
+
+        <ul></ul>
+    </div>
+
+    <button id="startBtn">START</button>
+    <button id="clearBtn">CLEAR</button>
+
+    <script src="App.js"></script>
+</body>
+
+</html>

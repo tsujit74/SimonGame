@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(126, 83, 83, 0.212)
+}
+
+.head h2{
+    background-color: rgba(126, 83, 83, 0.212);
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.head h1{
+    background-color:rgba(126, 83, 83, 0.212);
+    padding: 10px;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 0.5rem;
+}
+
+.name{
+     padding-bottom: 5px;
+}
+
+.name input{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(172, 75, 75, 0.189);
+}
+
+.name button{
+    padding: 5px;
+    font-weight: bold;
+    width: 80px;
+    background-color: rgba(172, 75, 75, 0.189);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(126, 83, 83, 0.212);
+    padding: 15px 0px 15px 0px;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
+
+#startBtn{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.473)
+}
+
+#clearBtn{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(255, 119, 0, 0.915)
+}
+
+#startBtn:active{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+li{
+    background-color: rgba(0, 0, 0, 0.189);
+    background-color: rgba(185, 119, 62, 0.473);
+    padding: 5px;
+    width: fit-content;
+    text-align: left;
+    margin: 2px;
+}
+ul{
+    height: 300px;
+    overflow: auto;
+}
+
+ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+ul::-webkit-scrollbar-track {
+    background-color: #754747;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 119, 0, 0.473);
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(185, 119, 62, 0.473);
+}
+
+@media (max-width: 768px) {
+    .btn{
+        width: 80px;
+        height: 90px;
+        margin: 0.5rem;
+        border: 5px solid black;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .head h2{
+        font-size: 16px;
+    }
+
+    .btn-container{
+        border: none;
+        border: 1px solid black;
+        justify-content: left;
+    }
+    
+    ul{
+        height: 220px;
+    }
+
+    ul li{
+        text-decoration: none;
+        text-align: left;
+        font-size: 10px;
+    }
+}
